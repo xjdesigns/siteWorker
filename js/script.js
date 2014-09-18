@@ -27,7 +27,7 @@ $(document).ready(function() {
     
     
     
-    var t = $("#anchor-point").offset().top;
+    var t = $("#title-anchor").offset().top;
 
     $(document).scroll(function(){
         if($(this).scrollTop() > t)
